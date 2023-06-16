@@ -1,0 +1,36 @@
+//stepwise commands :
+//if Node.js 5.2 or higher is not installed then install npx  
+npm i npx
+
+//create react project
+//create-react-app includes built tools such as webpack, Babel, and ESLint
+//Webpack includes a development server that provides a local development environment, allows developers to see instant changes in the browser without having to manually refresh the page
+
+npx create-react-app react-project1
+
+//to uninstall older version of create-react-app
+npm uninstall -g create-react-app
+
+//cd to project folder
+cd react-project1
+
+// create package.json
+npm init
+
+//Starts the development server // to run the application
+npm start
+
+//Bundles the app into static files for production
+npm run build
+
+//Starts the test runner
+npm test
+
+//Removes this tool and copies build dependencies, configuration filesand scripts into the app directory. If you do this, you can't go back!
+npm run eject
+
+//=============================================================================
+Upgrade to React 18
+//Install React 18
+npm i react@latest react-dom@latest
+
